@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>netanel-m</title>
+    <link href="https://netanel-m.github.io/feed.xml" rel="self" />
+    <link href="https://netanel-m.github.io" />
+    <updated>2022-12-14T16:03:48+02:00</updated>
+    <author>
+        <name>Netanel M.</name>
+    </author>
+    <id>https://netanel-m.github.io</id>
+
+    <entry>
+        <title>Projects</title>
+        <author>
+            <name>Netanel M.</name>
+        </author>
+        <link href="https://netanel-m.github.io/projects/"/>
+        <id>https://netanel-m.github.io/projects/</id>
+
+        <updated>2022-12-14T16:03:39+02:00</updated>
+            <summary>
+                <![CDATA[
+                    In this page you can see some of my personal projects I've done for fun and educational purposes. This project bridges p5.js with google's blockly. This enables an aspiring programmer to become familiar with p5.js through a visual block based programming environment. Super Binary Man&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><!-- wp:heading --></p>
+<h2 id="mcetoc_1gk8f4fe12q">Introduction</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>In this page you can see some of my personal projects I've done for fun and educational purposes.</p>
+<div class="post__toc">
+<h3>Table of Contents</h3>
+<ul>
+<li><a href="#mcetoc_1gk8f4fe12q">Introduction</a></li>
+<li><a href="#mcetoc_1gk8f4fe12r">p5.block</a></li>
+<li><a href="#mcetoc_1gk8f4fe12s">Super Binary Man</a></li>
+<li><a href="#mcetoc_1gk8f4fe12t">Inherited Behaviours - Processing Py</a></li>
+<li><a href="#mcetoc_1gk8f4fe12u">Cellular Automata for Cave Generation</a></li>
+</ul>
+</div>
+<h2 id="mcetoc_1gk8f4fe12r">p5.block</h2>
+<figure class="post__image"><img loading="lazy"  src="https://github.com/Netanel-M/p5.block/raw/main/example.png" alt="" width="1920" height="879" data-is-external-image="true"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://github.com/Netanel-M/p5.block/raw/main/example2.png" alt="" width="1920" height="879" data-is-external-image="true"></figure>
+<p>This project bridges p5.js with google's blockly. This enables an aspiring programmer to become familiar with p5.js through a visual block based programming environment.</p>
+<table>
+<tbody>
+<tr>
+<td>Year</td>
+<td>Language</td>
+<td>Environment</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>EcmaScript 6 (JS)</td>
+<td>HTML 5</td>
+</tr>
+</tbody>
+</table>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2 id="mcetoc_1gk8f4fe12s">Super Binary Man</h2>
+<figure class="post__image"><img loading="lazy"  src="https://camo.githubusercontent.com/c01411055c6fe430b1fb1a6ae3766a4f33b37a045e692250756890612a1b4968/68747470733a2f2f692e696d6775722e636f6d2f65475745516e452e706e67" alt="" width="1923" height="942" data-is-external-image="true"></figure>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:image {"id":261,"width":615,"height":303,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Super Binary Man was my HTML5 study project while I was studying for my W3C Front End Developer Certification. It's an HTML 5 Game written in EcmaScript 6 using the standard canvas element. Programmatically it features an object oriented design, canvas graphics, a custom made game engine and basic gameplay mechanics.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To play it, open it on a pc, use the arrow or wasd keys to move, and space to Jump. Avoid hitting the red computer-controlled enemies. The goal is to reach the number displayed at the top and match the sum above it with it, by hitting the yellow boxes from below in an order that accumulates to the goal. This actually creates a binary number sequence that corresponds to sequence, where active boxes corresponds to binary 1s, and unactivated boxes correspond to 0s.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table>
+<tbody>
+<tr>
+<td>Year</td>
+<td>Language</td>
+<td>Environment</td>
+</tr>
+<tr>
+<td>2019</td>
+<td>EcmaScript 6 (JS)</td>
+<td>HTML 5</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 id="mcetoc_1gk8f4fe12t">Inherited Behaviours - Processing Py</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:image {"id":264,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Inherited Behaviours - Processing Py is a project born out of following the book "The Nature of Code" by Daniel Shiffman. It is an implementation of a Genetic Algorithm (GA) inside a physics simulation. The different characters on screen can be selectively bred by holding the left mouse button and then generating a new generation of offspring with the right mouse button. A crossover genetic function is applied to transfer genetic material between the selected characters and a new population is created. The user can experiment with different characters and see how their looks and movement characteristics are changed.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table>
+<tbody>
+<tr>
+<td>Year</td>
+<td>Language</td>
+<td>Environment</td>
+</tr>
+<tr>
+<td>2018</td>
+<td>Python</td>
+<td>Processing 3</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:heading --></p>
+<h2 id="mcetoc_1gk8f4fe12u">Cellular Automata for Cave Generation</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:image {"id":268,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>This project is a fun implementation of a cellular automata algorithm as popularized by the famous "Game of Life" program. It shows how cellular automata can be used to generate cave like structures. Very popular in video game design.</p>
+<p><!-- /wp:paragraph --></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Kubernetes - kubectl cheatsheet</title>
+        <author>
+            <name>Netanel M.</name>
+        </author>
+        <link href="https://netanel-m.github.io/kubernetes-kubectl-cheatsheet/"/>
+        <id>https://netanel-m.github.io/kubernetes-kubectl-cheatsheet/</id>
+            <category term="Kubernetes"/>
+            <category term="Kubectl"/>
+            <category term="Containers"/>
+
+        <updated>2022-12-14T13:05:45+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Kubernetes is a system that can at times be a bit threatening. It is truly a vast and agile service, and maintaining it can feel a bit off-putting at times. In this article, I'm going to write down some of the most common commands I&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><!-- wp:paragraph --></p>
+<p>Kubernetes is a system that can at times be a bit threatening. It is truly a vast and agile service, and maintaining it can feel a bit off-putting at times. In this article, I'm going to write down some of the most common commands I use in my day to day Kubernetes maintenance.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":1} --></p>
+<h1>Pods</h1>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>A Pod is the smallest unit that hosts Containers in Kubernetes. It can at minimum contain one container. It can also host multiple containers together, which can talk to each other over a localhost interface (127.0.0.1).</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2>Getting all Pods</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Used to get all Pods in the system.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Can be used with the -o flag to get more information such as which Mode hosts which Container. The -n flag can be added to specify a specific namespace</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">kubectl get pods -A</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading --></p>
+<h2>Describe a Pod</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Describing a Pod allows you to see expanded information related to a given Pod, such as the last events it experienced, its Labels, Volumes and more.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">kubectl describe pod <pod name> -n <namespace></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading --></p>
+<h2>Delete a Pod</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>If you want to force a pod to restart itself, simply delete it with the following command.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">kubectl delete pod <pod name> -n <namespace></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading --></p>
+<h2>Getting the logs of a Pod</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>You can get the logs of a pod with this simple command. Redirect it into a file to prevent overloading your terminal's buffer. Note that -c specifies the container's name inside the pod.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">kubectl logs <pod name> -n <namespace> -c >container></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading --></p>
+<h2>Accessing the shell of a container</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>This command will allow you to get access to the shell inside a pod. Use -c to specify the container name.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">kubectl exec -it <pod name> sh -n <namespace></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":1} --></p>
+<h1>Namespaces</h1>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Namespaces are an abstraction that allows you to group resources together under a specific name.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2>Getting all Namespaces</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>This one is used to get all Mamespaces the system contains, A Namespace is a logical way to associate resources with a specific name, which is useful for logically grouping components together.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">kubectl get ns</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading --></p>
+<h2>Deleting a Namespace</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Deleting a namespace will purge all resources associated with it, such as deployments, pods, services etc.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">kubectl delete ns <namespace></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading {"level":1} --></p>
+<h1>Deployments</h1>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Deployments are used to configure pods A deployment contains instructions that specifies the configuration of a Pod.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2>Get Deployments in a given Namespace</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>This command can be used to list the Deployments in a given Namespace.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">kubectl get deployments -n <namespace></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading --></p>
+<h2>Edit a Deployment</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>You can use this command to edit a Deployment, where you can change everything that makes a Deployment work, such as the specs of the Container, or the image it uses.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">kubectl edit deployment <deployment name> -n <namespace></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading --></p>
+<h2>Delete a Deployment</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>If you want to delete your pods premanently, you should delete your deployment. Use the following command to do so.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">kubectl delete deployment <deployment name> -n <namespace></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading {"level":1} --></p>
+<h1>Nodes</h1>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Nodes do the heavy lifting, they're either workers who host the worker pods themselves, or the masters who host the API.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2>Getting Nodes</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>You can see a list of Modes and their status with this command. Use the -o flag to see more information about them.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">kubectl get nodes</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading --></p>
+<h2>Draining a Node</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>If you want to vacate your Node from all Pods you can use this command. Use it when you want to perform maintenance on a node. This will cause Kubernetes to transfer the pods to another Node that has free resources.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">kubectl drain <node name></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading --></p>
+<h2>Deleting a Node</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>To permanently delete a node from your cluster, you can use this command, however you should safely drain it first!</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">kubectl delete node <node name></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading --></p>
+<h2>Showing the labels of a Node</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Use this command to displays the current labels assigned to a node.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">kubectl get nodes --show-labels</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading --></p>
+<h2>Labeling a Node</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>You can label nodes in order to specify which node will host which deployments. The selector is used in a deployment to label the pods, and you use the following command to label the node. This completes the circle and allows a pod to be assigned to a given node using the node's label.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">kubectl label nodes <node name> <key>=<value></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":1} --></p>
+<h1>Services</h1>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Services serve as a way to abstract between pods and network services.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2>Getting services</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>This command will allow you to see all services in the cluster, along with their type, namespace, port etc. Use -n instead of -A to filter for a specific namespace.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">kubectl get ns -A</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading --></p>
+<h2>Delete a service</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The following command can be used to delete a service.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">kubectl delete svc <service name> -n <namespace></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Home</title>
+        <author>
+            <name>Netanel M.</name>
+        </author>
+        <link href="https://netanel-m.github.io/home/"/>
+        <id>https://netanel-m.github.io/home/</id>
+
+        <updated>2022-12-14T16:03:48+02:00</updated>
+            <summary>
+                <![CDATA[
+                    I'm a Linux System Administration, and a deployment engineer with over 3 years of experience in the field and many more since I've first made my introduction to Linux and the open source ecosystem. Here in my website you can find tutorials related to my&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><!-- wp:heading --></p>
+<h2>About me</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>I'm a Linux System Administration, and a deployment engineer with over 3 years of experience in the field and many more since I've first made my introduction to Linux and the open source ecosystem.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Here in my website you can find tutorials related to my field of work, and also some of my projects.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:wpforms/form-selector {"formId":"228"} /--></p>
+<p><!-- wp:social-links --></p>
+<ul class="wp-block-social-links">
+<li style="list-style-type: none;">
+<ul class="wp-block-social-links"><!-- wp:social-link {"url":"https://github.com/netanel-m","service":"github"} /--></ul>
+</li>
+</ul>
+<p><!-- wp:social-link {"url":" www.linkedin.com/in/netanel-m","service":"linkedin"} /--></p>
+<p><!-- /wp:social-links --></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Introduction to basic Linux permissions</title>
+        <author>
+            <name>Netanel M.</name>
+        </author>
+        <link href="https://netanel-m.github.io/introduction-to-basic-linux-permissions/"/>
+        <id>https://netanel-m.github.io/introduction-to-basic-linux-permissions/</id>
+            <category term="Linux Permissions"/>
+
+        <updated>2022-12-14T13:05:45+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Linux permissions are often very confusing to new users coming from Windows to Linux for the first time. Casual Linux users that have been using it for years may even misunderstand this topic and so I thought it would handy to write a small guide&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><!-- wp:paragraph --></p>
+<p>Linux permissions are often very confusing to new users coming from Windows to Linux for the first time. Casual Linux users that have been using it for years may even misunderstand this topic and so I thought it would handy to write a small guide that would hopefully be very easy to understand.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2>Types of permissions</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>There are 3 basic permissions:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:table --></p>
+<figure class="wp-block-table">
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>File</th>
+<th>Directory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Read</td>
+<td>Read the content</td>
+<td>List the contents of the directory</td>
+</tr>
+<tr>
+<td>Write</td>
+<td>Write or modify into the file</td>
+<td>Delete directory, create new files inside it</td>
+</tr>
+<tr>
+<td>Execute</td>
+<td>Run script or binary file</td>
+<td>Enter directory</td>
+</tr>
+</tbody>
+</table>
+<figcaption>File permissions</figcaption>
+</figure>
+<p>
+<!-- /wp:table --></p>
+<p><!-- wp:paragraph --></p>
+<p>To <strong>read</strong> a file, we can use the <code>cat</code> command. To <strong>write</strong> into the file, we can use a text editor such as <code>vim</code> or <code>nano</code>. To <strong>enter</strong> a directory, we can <code>cd</code> into it, and to <strong>list</strong> the contents of a directory we can use the <code>ls</code> command.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2>Users, groups, and other</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Permissions in Linux has three "tiers", the first is the <strong>User</strong> permission, which applies to the owner of a file. The second is the <strong>Group</strong> permission which applies to the group that owns the file and the third is the <strong>Other</strong> permission which applies to everyone else. How do we assign these? Hold on tight as I explain that next.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2>How do I use this?</h2>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The command we use in unix-based operating systems to change user permissions is the <code>chmod</code> command. the syntax is like this:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">chmod <permission> <file></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>But what do we put under <permission>?</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Well there's two methods, the first is to use an octal value. Fear not, it's actually very simple.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3>Basic octal permission values</h3>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:list --></p>
+<ul>
+<li>4 - Read</li>
+<li>2 - Write</li>
+<li>1 - Execute</li>
+<li>0 - No permissions (Deny all)</li>
+</ul>
+<p>
+<!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>So if you wanted to grant a read permission on a file called <code>test</code> you'd do it like this:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">chmod 400 test</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>The first number is a User permission, which means grant a read to the owner of the file, second is the group permission which we deny everything, and the third is the other permission which we also deny all.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>But what if we wanted to grant a read and a write on a file? If we own this file then we probably want to do both. Well it's really simple, you simply take the Read value (4) and the write value (2) and you add them together (4+2) to get the value 6. so now the command looks like this:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">chmod 600 test</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Easy right?<br>But what if we wanted to modify a permission instead of setting all three together?</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3>Using non octal values</h3>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>The alternative to octal values, and the solution to the previous problem is to use letters instead of numbers. The three octal values are represented like so:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul>
+<li>r</li>
+<li>w</li>
+<li>x</li>
+</ul>
+<p>
+<!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>And for User Group and Other we'll use:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul>
+<li>u</li>
+<li>g</li>
+<li>o</li>
+</ul>
+<p>
+<!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>So to solve our previous problem, and add an additional permission to a file or directory with existing permissions we'll use something like this:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">chmod u+x test # Meaning, to add the execute permission to the owner of a file.</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>You can also set the three permissions together like so:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">chmod ugo=rwx test  # giving the read write execute permissions for everyone.</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>I hope this has been educational for you and I'll see you next time!</p>
+<p>
+<!-- /wp:paragraph --></p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Lighttpd Quickstart</title>
+        <author>
+            <name>Netanel M.</name>
+        </author>
+        <link href="https://netanel-m.github.io/lighttpd-quickstart/"/>
+        <id>https://netanel-m.github.io/lighttpd-quickstart/</id>
+            <category term="tutorial"/>
+            <category term="lighttpd"/>
+            <category term="centos"/>
+            <category term="Linux"/>
+
+        <updated>2022-12-14T13:05:45+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Lighttpd is a tiny web server that's suitable to use on embedded systems and other setups where you want an extremely lightweight and speedy web server. This will server as a short introduction to Lighttpd. We'll start by installing the Extra Packages for Enterprise Linux&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><!-- wp:paragraph --></p>
+<p>Lighttpd is a tiny web server that's suitable to use on embedded systems and other setups where you want an extremely lightweight and speedy web server.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>This will server as a short introduction to Lighttpd.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":4} --></p>
+<h4>Installing lighttpd on Centos 8</h4>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>We'll start by installing the Extra Packages for Enterprise Linux community repository.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">dnf install epel-release</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>And follow up with an installation of lighttpd.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">dnf install lighttpd</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Next, we'll enable and start the lighttpd daemon.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">systemctl enable lighttpd<restore-line-break>systemctl start lighttpd</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Issue a curl to make sure the service is working correctly.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">curl localhost</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>If you successfully pulled a webpage, congratulations - lighttpd is installed and working.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Now let's dig in the configuration file, open /etc/lighttpd/lighttpd.conf with your favorite text editor and let's go over the config.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>at the top you should see some default locations.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">var.log_root    = "/var/log/lighttpd" # This is where logs will go<restore-line-break>var.server_root = "/var/www" # This is where we'll put our html files<restore-line-break>var.state_dir   = "/run/lighttpd" # this is where lighttpd will run<restore-line-break>var.home_dir    = "/var/lib/lighttpd" # This is the home folder for lighttpd<restore-line-break>var.conf_dir    = "/etc/lighttpd" # this is where we store configuration</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Afterwards you'll see chroot config, we'll skip that. Next let's go over the basic configuration section.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">#######################################################################<restore-line-break>##<restore-line-break>##  Basic Configuration<restore-line-break>## ---------------------<restore-line-break>##<restore-line-break>server.port = 80<restore-line-break><restore-line-break>##<restore-line-break>## bind to a specific IP<restore-line-break>##<restore-line-break>#server.bind = "localhost"<restore-line-break><restore-line-break>##<restore-line-break>## Run as a different username/groupname.<restore-line-break>## This requires root permissions during startup. <restore-line-break>##<restore-line-break>server.username  = "lighttpd"<restore-line-break>server.groupname = "lighttpd"<restore-line-break><restore-line-break>##<restore-line-break>## Document root<restore-line-break>##<restore-line-break>server.document-root = server_root + "/lighttpd"<restore-line-break><restore-line-break>##<restore-line-break>## store a pid file<restore-line-break>##<restore-line-break>server.pid-file = state_dir + "/lighttpd.pid"<restore-line-break></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Note the server port, the server bind, and the username and groupname.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Here is the logging section.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">#######################################################################<restore-line-break>##<restore-line-break>##  Logging Options<restore-line-break>## ------------------<restore-line-break>##<restore-line-break>## all logging options can be overwritten per vhost.<restore-line-break>##<restore-line-break>## Path to the error log file<restore-line-break>##<restore-line-break>server.errorlog             = log_root + "/error.log"<restore-line-break><restore-line-break>##<restore-line-break>## Access log config<restore-line-break>## <restore-line-break>include "conf.d/access_log.conf"<restore-line-break><restore-line-break>##<restore-line-break>## The debug options are moved into their own file.<restore-line-break>## see conf.d/debug.conf for various options for request debugging.<restore-line-break>##<restore-line-break>include "conf.d/debug.conf"<restore-line-break></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>So as you can see, since our log root is /var/log/lighttpd, errors will go to /var/log/lighttpd/error.log.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>We'll skip most of the sections and go all the way down to SSL configuration.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">#######################################################################<restore-line-break>##<restore-line-break>##  SSL Support<restore-line-break>## ------------- <restore-line-break>##<restore-line-break>## To enable SSL for the whole server you have to provide a valid<restore-line-break>## certificate and have to enable the SSL engine.::<restore-line-break>##<restore-line-break>##   ssl.engine = "enable"<restore-line-break>##   ssl.pemfile = "/path/to/server.pem"<restore-line-break>##<restore-line-break>##   $SERVER["socket"] == "10.0.0.1:443" {<restore-line-break>##     ssl.engine                  = "enable"<restore-line-break>##     ssl.pemfile                 = "/etc/ssl/private/www.example.com.pem"<restore-line-break>##<restore-line-break>##     # Check your cipher list with: openssl ciphers -v '...'<restore-line-break>##     # (use single quotes as your shell won't like ! in double quotes)<restore-line-break>##     #ssl.cipher-list             = "PROFILE=SYSTEM"<restore-line-break>##<restore-line-break>##     # (recommended to accept only TLSv1.2 and TLSv1.3)<restore-line-break>##     #ssl.openssl.ssl-conf-cmd = ("Protocol" => "-ALL, TLSv1.2, TLSv1.3")<restore-line-break>##<restore-line-break>##     server.name                 = "www.example.com"<restore-line-break>##<restore-line-break>##     server.document-root        = "/srv/www/vhosts/example.com/www/"<restore-line-break>##   }<restore-line-break>##<restore-line-break><restore-line-break>## If you have a .crt and a .key file, specify both ssl.pemfile and ssl.privkey,<restore-line-break>## or cat them together into a single PEM file:<restore-line-break>## $ cat /etc/ssl/private/lighttpd.key /etc/ssl/certs/lighttpd.crt \<restore-line-break>##   > /etc/ssl/private/lighttpd.pem<restore-line-break>##<restore-line-break>#ssl.pemfile = "/etc/ssl/private/lighttpd.pem"<restore-line-break>#<restore-line-break># or<restore-line-break>#<restore-line-break>#ssl.privkey = "/etc/ssl/private/privkey.pem"<restore-line-break>#ssl.pemfile = "/etc/ssl/private/cert.pem"<restore-line-break><restore-line-break>##<restore-line-break>## optionally pass the CA certificate here.<restore-line-break>##<restore-line-break>##<restore-line-break>#ssl.ca-file = ""<restore-line-break><restore-line-break>##<restore-line-break>## and the CRL revocation list here.<restore-line-break>##<restore-line-break>##<restore-line-break>#ssl.ca-crl-file = ""<restore-line-break><restore-line-break>##<restore-line-break>#######################################################################</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>And below this section is the final one, where we include extra configuration files.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">#######################################################################<restore-line-break>##<restore-line-break>## custom includes like vhosts.<restore-line-break>##<restore-line-break>#include "conf.d/config.conf"<restore-line-break>#include "/etc/lighttpd/vhosts.d/*.conf"<restore-line-break>##<restore-line-break>#######################################################################</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Now that we took a look at the configuration, all we have to do is put some html files in the right location and test.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">sudo echo '
+<p>Hello World!</p>
+<p>/ > /var/www/lighttpd/index.html && chown lighttpd:lighttpd /var/www/lighttpd/index.html<restore-line-break>curl localhost</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>You should now see the hello world message, success!</p>
+<p>
+<!-- /wp:paragraph --></p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Docker-Compose Introduction</title>
+        <author>
+            <name>Netanel M.</name>
+        </author>
+        <link href="https://netanel-m.github.io/docker-compose-introduction/"/>
+        <id>https://netanel-m.github.io/docker-compose-introduction/</id>
+            <category term="tutorial"/>
+            <category term="docker-compose"/>
+            <category term="docker"/>
+
+        <updated>2022-12-14T13:05:45+02:00</updated>
+            <summary>
+                <![CDATA[
+                    So today we'll take a look at dipping our toes into docker-compose. docker-compose is a tool for defining, running, and managing multiple containers at once. It's very useful for development environments and home servers, where you want many services running in parallel on one machine.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><!-- wp:paragraph --></p>
+<p>So today we'll take a look at dipping our toes into docker-compose.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":4} --></p>
+<h4>What is docker compose?</h4>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>docker-compose is a tool for defining, running, and managing multiple containers at once. It's very useful for development environments and home servers, where you want many services running in parallel on one machine.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":4} --></p>
+<h4>Downloading docker-compose</h4>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>You can often download docker-compose through your distribution's package manager. If it's not, you can easily download it with pip:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5>Docker-compose</h5>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">pip3 install docker-compose</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5>Podman-compose</h5>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">pip3 install podman-compose</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading {"level":4} --></p>
+<h4>Now for the juicy part</h4>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Start by creating a directory where you want your configuration to be stored, and create a docker compose file:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock {"language":"shell"} --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="shell" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">mkdir docker-compose-tutorial<restore-line-break>cd docker-compose-tutorial<restore-line-break>vim docker-compose.yml</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Every docker-compose file needs to start with an API version, we'll use api version 3</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock {"language":"yaml"} --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="yaml" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">version: '3'</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Next we'll define a service, so go ahead and create a services entry and follow up with a service name:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock {"language":"yaml"} --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="yaml" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">version: '3'<restore-line-break>services:<restore-line-break>    my_service:<restore-line-break>        <here is where your service's definition attributes go></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Now, under the service name you can start adding attributes.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock {"language":"yaml"} --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="yaml" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">version: '3'<restore-line-break>services:<restore-line-break>    my_service:<restore-line-break>        image: httpd<restore-line-break>        ports:<restore-line-break>            - 8080:80</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>This configuration defines a service "my_service" that spawns a container with an httpd image, and binds the container's port 80 to our local machine's port 8080.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Now run the docker-compose file with</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">docker-compose up</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Open up a browser and visit 127.0.0.1:8080</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>You should see a success page, now let's see how we can change the container's index.html file to our own file.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>make a new folder called html and create inside it a file called index.html with the page you want to serve:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock {"language":"shell"} --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="shell" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">mkdir html<restore-line-break>cd html<restore-line-break>echo "
+<p>Hello World!</p>
+<p>" > index.html</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Now go back to your docker-compose file, and add the following under my_service below where you put the ports definition:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock {"language":"yaml"} --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="yaml" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">version: '3'<restore-line-break>services:<restore-line-break>    my_service:<restore-line-break>        image: httpd<restore-line-break>        ports:<restore-line-break>            - 8080:80<restore-line-break>        volumes:<restore-line-break>            - ./html:/usr/local/apache2/htdocs/<restore-line-break></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>What this means is that we will mount the content of the directory html relative to the docker-compose file inside /usr/local/apache2/htdocs.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Restart your container(s) with the folowing command:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">docker-compose restart</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Visit your browser again and reload the page, you should see the html file being served by your container.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":4} --></p>
+<h4>Passing environment variables to your service</h4>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>A common thing to want to do, besides choosing an image and mounting folders is to pass environment variables to your services. Here is an example for doing so:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock {"language":"yaml"} --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="yaml" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">version: '3'<restore-line-break>services:<restore-line-break>    my_service:<restore-line-break>        image: httpd<restore-line-break>        ports:<restore-line-break>            - 8080:80<restore-line-break>        volumes:<restore-line-break>            - ./html:/usr/local/apache2/htdocs/<restore-line-break>        environment:<restore-line-break>            - FOO=bar<restore-line-break>            - SPAM=eggs<restore-line-break></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Docker - Common Commands</title>
+        <author>
+            <name>Netanel M.</name>
+        </author>
+        <link href="https://netanel-m.github.io/docker-common-commands/"/>
+        <id>https://netanel-m.github.io/docker-common-commands/</id>
+            <category term="docker-compose"/>
+            <category term="docker"/>
+
+        <updated>2022-12-14T13:05:45+02:00</updated>
+            <summary>
+                <![CDATA[
+                    This tutorial will introduce you to the very basic Docker / Podman commands. You should memorize these, as you'll use them often. To download an image to your computer, use the following command as an example for how to pull an nginx image: docker pull&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><!-- wp:paragraph --></p>
+<p>This tutorial will introduce you to the very basic Docker / Podman commands. You should memorize these, as you'll use them often.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3>Pulling an image</h3>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>To download an image to your computer, use the following command as an example for how to pull an nginx image:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">docker pull nginx</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3>Listing docker images</h3>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>To list all locally available images use the following command:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">docker image list</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>If you followed my <a href="https:/.netanel.xyz/2020/10/31/docker-tutorial/" data-type="URL" target="_blank" rel="noreferrer noopener">previous tutorial</a> you should already have an hello-world image available. If not, please pull it.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Note the Image ID.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3>Removing an image</h3>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>To remove a local image use this line:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">docker image rm <image id></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3>Running a container</h3>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>To execute the hello-world image you downloaded earlier, execute this line:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">docker run hello-world</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>For the next example, please run a container that will not finish immediately, such as an apache server. Simply replace "hello-world" with "httpd".</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3>List running containers</h3>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>To show all running containers:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">docker container ls</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Note the container ID.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3>Remove container</h3>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>You can also remove a container this way:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">docker container rm <container id></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3>Getting a bash shell to a running container</h3>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>If you have a container running in the background, you can get a bash shell to it this way:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">docker exec -it <container id> bash</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3>Getting logs from a container</h3>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>You can inspect a container's stdout like so:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">docker logs <container id></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>You should now know enough to start playing with containers on your own, have fun!</p>
+<p>
+<!-- /wp:paragraph --></p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Docker Introduction</title>
+        <author>
+            <name>Netanel M.</name>
+        </author>
+        <link href="https://netanel-m.github.io/docker-introduction/"/>
+        <id>https://netanel-m.github.io/docker-introduction/</id>
+            <category term="docker"/>
+
+        <updated>2022-12-14T13:05:45+02:00</updated>
+            <summary>
+                <![CDATA[
+                    In this post I'm going to give you an introduction for using Docker. But first, let's talk about the underlying technology. A container is a type of virtualization tool but unlike a Virtual Machine, a container shares its Kernel with its host, and allows access&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><!-- wp:paragraph --></p>
+<p>In this post I'm going to give you an introduction for using Docker.<br>But first, let's talk about the underlying technology.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3>What's a container</h3>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>A container is a type of virtualization tool but unlike a Virtual Machine, a container shares its Kernel with its host, and allows access to resources using cgroups rather than fully virtualizing them the way a hypervisor does. Containers are complementary to VMs, and can be used with or without them.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3>Two types of containers</h3>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>There are two types of containerization methods:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul>
+<li>Operating System Container
+<ul>
+<li>Virtualizes an entire operating system, such as Ubuntu or Centos.<br>This is the heavier solution, popularized by LXC/LXD and often used with Alpine Linux because of its lightweight nature. Such a container acts like a normal VM albeit much more lightweight, and can be administered the same way you administer an operating system.</li>
+</ul>
+</li>
+<li>Application Container
+<ul>
+<li>A newer, more popular method of using a container popularized by Docker where only the components needed to run the application running on the container are present. This gives you a more secure, more lightweight solution.</li>
+</ul>
+</li>
+</ul>
+<p>
+<!-- /wp:list --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3>Installing Docker</h3>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>If you don't mind using an older version of Docker, you can always install it from your software repository. Note that you may be missing newer features we may use in This tutorial. </p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":4} --></p>
+<h4>Installing via Software Repositories</h4>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>On Ubuntu 20.04:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">sudo apt install docker docker-compose</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading {"level":4} --></p>
+<h4>Installing the Latest Version</h4>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Ubuntu 20.04</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -<restore-line-break>sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"<restore-line-break>sudo apt install docker-ce docker-compose<restore-line-break>sudo usermod -aG docker $USER</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Log out and in for the last line's changes to take effect</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":4} --></p>
+<h4>What about Centos and Docker?</h4>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>So with the case of Centos, the current version of docker is not supported and causes a dependency nightmare. I could give you instructions to maybe circumvent this and install the dependencies you need manually or try to go around the problem with the --nobest flag but instead I will give you another alternative.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5>Podman</h5>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:quote --></p>
+<blockquote class="wp-block-quote">
+<p><a href="http://podman.io">Podman</a> is a daemonless, open source, Linux native tool designed to make it easy to find, run, build, share and deploy applications using Open Containers Initiative (<a href="https://www.opencontainers.org/">OCI</a>) <a href="https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/#h.j2uq93kgxe0e">Containers</a> and <a href="https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/#h.dqlu6589ootw">Container Images</a>. Podman provides a command line interface (CLI) familiar to anyone who has used the Docker <a href="https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/#h.6yt1ex5wfo3l">Container Engine</a>. Most users can simply alias Docker to Podman (alias docker=podman) without any problems. Similar to other common <a href="https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/#h.6yt1ex5wfo3l">Container Engines</a> (Docker, CRI-O, containerd), Podman relies on an OCI compliant <a href="https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/#h.6yt1ex5wfo55">Container Runtime</a> (runc, crun, runv, etc) to interface with the operating system and create the running containers. This makes the running containers created by Podman nearly indistinguishable from those created by any other common container engine.</p>
+<p><cite>http://docs.podman.io/en/latest/</cite></blockquote>
+<p>
+<!-- /wp:quote --></p>
+<p><!-- wp:paragraph --></p>
+<p>Podman is in the Centos Software repositories, and provides a podman-compose command that is compatible with docker compose which we'll use later in the tutorial. It should be almost completely compatible with Docker but it features additional features such as pod management as well as being daemonless, which solves some important security issues with Docker.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">sudo dnf install podman podman-compose<restore-line-break>alias docker-compose="podman-compose"</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>You should now be able to run docker and docker-compose commands.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":4} --></p>
+<h4></h4>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:heading {"level":3} --></p>
+<h3>Testing our installation</h3>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Let's pull and run a simple container</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">docker run hello-world</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>If all is well you should get the following output:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:code --></p>
+<pre class="wp-block-code"><code>Hello from Docker!<restore-line-break>This message shows that your installation appears to be working correctly.<restore-line-break><restore-line-break>To generate this message, Docker took the following steps:<restore-line-break> 1. The Docker client contacted the Docker daemon.<restore-line-break> 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.<restore-line-break>    (amd64)<restore-line-break> 3. The Docker daemon created a new container from that image which runs the<restore-line-break>    executable that produces the output you are currently reading.<restore-line-break> 4. The Docker daemon streamed that output to the Docker client, which sent it<restore-line-break>    to your terminal.<restore-line-break><restore-line-break>To try something more ambitious, you can run an Ubuntu container with:<restore-line-break> $ docker run -it ubuntu bash<restore-line-break><restore-line-break>Share images, automate workflows, and more with a free Docker ID:<restore-line-break> https:&#47;&#47;hub.docker.com/<restore-line-break><restore-line-break>For more examples and ideas, visit:<restore-line-break> https://docs.docker.com/get-started/<restore-line-break></code></pre>
+<p>
+<!-- /wp:code --></p>
+<p><!-- wp:paragraph --></p>
+<p>I'll see you next time for some handy Docker/Podman commands!</p>
+<p>
+<!-- /wp:paragraph --></p>
+
+            ]]>
+        </content>
+    </entry>
+</feed>

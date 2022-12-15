@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en-il">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Docker-Compose Introduction - netanel-m </title>
+        <meta name="description" content="So today we'll take a look at dipping our toes into docker-compose. docker-compose is a tool for defining, running, and managing multiple containers at once. It's very useful for development environments and home servers, where you want many services running in parallel on one machine." />
+        
+        <meta name="generator" content="Publii Open-Source CMS for Static Site" />
+
+        <link rel="canonical" href="https://netanel-m.github.io/docker-compose-introduction/">
+        
+        <link rel="alternate" type="application/atom+xml" href="https://netanel-m.github.io/feed.xml" />
+<link rel="alternate" type="application/json" href="https://netanel-m.github.io/feed.json" />
+
+        <meta property="og:title" content="Docker-Compose Introduction" /><meta property="og:site_name" content="netanel-m" /><meta property="og:description" content="So today we'll take a look at dipping our toes into docker-compose. docker-compose is a tool for defining, running, and managing multiple containers at once. It's very useful for development environments and home servers, where you want many services running in parallel on one machine." /><meta property="og:url" content="https://netanel-m.github.io/docker-compose-introduction/" /><meta property="og:type" content="article" />
+        <link rel="stylesheet" href="https://netanel-m.github.io/assets/css/style.css?v=f5c2f533b084ca43d528b649c46ccadd">
+        <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://netanel-m.github.io/docker-compose-introduction/"},"headline":"Docker-Compose Introduction","datePublished":"2020-11-14T16:49","dateModified":"2022-12-14T13:05","description":"So today we'll take a look at dipping our toes into docker-compose. docker-compose is a tool for defining, running, and managing multiple containers at once. It's very useful for development environments and home servers, where you want many services running in parallel on one machine.","author":{"@type":"Person","name":"Netanel","url":"https://netanel-m.github.io/authors/netanel/"},"publisher":{"@type":"Organization","name":"Netanel M."}}</script>      
+        
+        
+    </head>
+    <body>
+        
+<div class="container js-container">
+      <nav class="menu">
+          <ul class="navbar__menu">
+                  <li>
+                      <a 
+                      href="https://netanel-m.github.io/home/"
+                          target="_self"
+      >
+                      About </a>              
+              </li>
+                  <li>
+                      <a 
+                      href="https://netanel-m.github.io/projects/"
+                          target="_self"
+      >
+                      Projects </a>              
+              </li>
+          </ul>
+      </nav>
+   <div class="content">
+      <header class="top">
+         <div class="top__item">
+            <a class="logo" href="https://netanel-m.github.io/">
+                  netanel-m
+            </a>
+         </div>
+         <div class="top__item top__item--right">
+              <button class="menu-toggle js-menu-toggle" aria-label="Menu" aria-expanded="false">
+						<span class="menu-toggle-box">
+							<span class="menu-toggle-inner"> Menu</span>
+						</span>
+					</button>
+         </div>
+      </header>   <main class="main">
+         <article class="post">
+            <div class="main__left">
+
+               <header>
+                  <h1>Docker-Compose Introduction</h1>
+                     <p>
+                           <time datetime="2020-11-14T16:49">
+                                 November 14, 2020
+                           </time>
+                           by
+                              <a href="https://netanel-m.github.io/authors/netanel/" rel="author" title="Netanel">Netanel</a>
+                     </p>
+               </header>
+            </div>
+            <div class="main__right">
+               <div class="post__entry">
+                     <p><!-- wp:paragraph --></p>
+<p>So today we'll take a look at dipping our toes into docker-compose.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":4} --></p>
+<h4>What is docker compose?</h4>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>docker-compose is a tool for defining, running, and managing multiple containers at once. It's very useful for development environments and home servers, where you want many services running in parallel on one machine.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":4} --></p>
+<h4>Downloading docker-compose</h4>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>You can often download docker-compose through your distribution's package manager. If it's not, you can easily download it with pip:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5>Docker-compose</h5>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">pip3 install docker-compose</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading {"level":5} --></p>
+<h5>Podman-compose</h5>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">pip3 install podman-compose</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:heading {"level":4} --></p>
+<h4>Now for the juicy part</h4>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Start by creating a directory where you want your configuration to be stored, and create a docker compose file:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock {"language":"shell"} --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="shell" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">mkdir docker-compose-tutorial<restore-line-break>cd docker-compose-tutorial<restore-line-break>vim docker-compose.yml</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Every docker-compose file needs to start with an API version, we'll use api version 3</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock {"language":"yaml"} --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="yaml" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">version: '3'</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Next we'll define a service, so go ahead and create a services entry and follow up with a service name:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock {"language":"yaml"} --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="yaml" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">version: '3'<restore-line-break>services:<restore-line-break>    my_service:<restore-line-break>        <here is where your service's definition attributes go></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Now, under the service name you can start adding attributes.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock {"language":"yaml"} --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="yaml" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">version: '3'<restore-line-break>services:<restore-line-break>    my_service:<restore-line-break>        image: httpd<restore-line-break>        ports:<restore-line-break>            - 8080:80</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>This configuration defines a service "my_service" that spawns a container with an httpd image, and binds the container's port 80 to our local machine's port 8080.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Now run the docker-compose file with</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">docker-compose up</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Open up a browser and visit 127.0.0.1:8080</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>You should see a success page, now let's see how we can change the container's index.html file to our own file.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>make a new folder called html and create inside it a file called index.html with the page you want to serve:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock {"language":"shell"} --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="shell" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">mkdir html<restore-line-break>cd html<restore-line-break>echo "
+<p>Hello World!</p>
+<p>" > index.html</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Now go back to your docker-compose file, and add the following under my_service below where you put the ports definition:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock {"language":"yaml"} --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="yaml" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">version: '3'<restore-line-break>services:<restore-line-break>    my_service:<restore-line-break>        image: httpd<restore-line-break>        ports:<restore-line-break>            - 8080:80<restore-line-break>        volumes:<restore-line-break>            - ./html:/usr/local/apache2/htdocs/<restore-line-break></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>What this means is that we will mount the content of the directory html relative to the docker-compose file inside /usr/local/apache2/htdocs.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Restart your container(s) with the folowing command:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">docker-compose restart</pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+<p><!-- wp:paragraph --></p>
+<p>Visit your browser again and reload the page, you should see the html file being served by your container.</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:heading {"level":4} --></p>
+<h4>Passing environment variables to your service</h4>
+<p>
+<!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>A common thing to want to do, besides choosing an image and mounting folders is to pass environment variables to your services. Here is an example for doing so:</p>
+<p>
+<!-- /wp:paragraph --></p>
+<p><!-- wp:enlighter/codeblock {"language":"yaml"} --></p>
+<pre class="EnlighterJSRAW" data-enlighter-language="yaml" data-enlighter-theme="" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">version: '3'<restore-line-break>services:<restore-line-break>    my_service:<restore-line-break>        image: httpd<restore-line-break>        ports:<restore-line-break>            - 8080:80<restore-line-break>        volumes:<restore-line-break>            - ./html:/usr/local/apache2/htdocs/<restore-line-break>        environment:<restore-line-break>            - FOO=bar<restore-line-break>            - SPAM=eggs<restore-line-break></pre>
+<p>
+<!-- /wp:enlighter/codeblock --></p>
+
+                     
+                     <footer>
+
+                           <div class="post__tag-share">
+
+                                    <ul class="post__tag">
+                                          <li>
+                                             <a href="https://netanel-m.github.io/tags/docker/">docker</a>
+                                          </li>
+                                          <li>
+                                             <a href="https://netanel-m.github.io/tags/docker-compose/">docker-compose</a>
+                                          </li>
+                                          <li>
+                                             <a href="https://netanel-m.github.io/tags/tutorial/">tutorial</a>
+                                          </li>
+                                    </ul>
+
+                                 <div class="post__share">
+                                       <a
+                                          href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnetanel-m.github.io%2Fdocker-compose-introduction%2F"
+                                          class="js-share facebook"
+                                          aria-label="Share with Facebook"
+                                          rel="nofollow noopener noreferrer">
+                                          <svg class="icon">
+                                             <use xlink:href="https://netanel-m.github.io/assets/svg/svg-map.svg#facebook"/>
+                                          </svg>
+                                       </a>
+                                    
+                                    
+                                       <a
+                                          href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fnetanel-m.github.io%2Fdocker-compose-introduction%2F&amp;media=undefined&amp;description=Docker-Compose%20Introduction"
+                                          class="js-share pinterest"
+                                          aria-label="Share with Pinterest"
+                                          rel="nofollow noopener noreferrer">
+                                          <svg class="icon">
+                                             <use xlink:href="https://netanel-m.github.io/assets/svg/svg-map.svg#pinterest"/>
+                                          </svg>
+                                       </a>
+                                    
+                                       <a
+                                          href="https://mix.com/add?url=https%3A%2F%2Fnetanel-m.github.io%2Fdocker-compose-introduction%2F"
+                                          class="js-share mix"
+                                          aria-label="[MISSING TRANSLATION] [MISSING TRANSLATION]"
+                                          rel="nofollow noopener noreferrer">
+                                          <svg class="icon">
+                                             <use xlink:href="https://netanel-m.github.io/assets/svg/svg-map.svg#mix"/>
+                                          </svg>
+                                       </a>
+                                    
+                                       <a
+                                          href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fnetanel-m.github.io%2Fdocker-compose-introduction%2F"
+                                          class="js-share linkedin"
+                                          aria-label="[MISSING TRANSLATION] Share with LinkedIn"
+                                          rel="nofollow noopener noreferrer">
+                                          <svg class="icon">
+                                             <use xlink:href="https://netanel-m.github.io/assets/svg/svg-map.svg#linkedin"/>
+                                          </svg>
+                                       </a>
+                                    
+                                    
+                                       <a
+                                          href="https://api.whatsapp.com/send?text=Docker-Compose%20Introduction https%3A%2F%2Fnetanel-m.github.io%2Fdocker-compose-introduction%2F"
+                                          class="js-share whatsapp"
+                                          title="[MISSING TRANSLATION] Share with LinkedIn"
+                                          rel="nofollow noopener noreferrer">
+                                          <svg class="icon">
+                                             <use xlink:href="https://netanel-m.github.io/assets/svg/svg-map.svg#whatsapp"/>
+                                          </svg>
+                                       </a>
+                                 </div>
+
+                           </div>
+
+                              <div class="post__bio">
+                                    <h3>
+                                       <a href="https://netanel-m.github.io/authors/netanel/" title="Netanel">Netanel</a>
+                                    </h3>
+                              </div>
+                     </footer>
+               </div>
+            </div>
+         </article>
+
+
+   </main>
+   <footer class="footer">
+         <div class="footer__copyright">
+            <p>Copyright 2022 netanel-m</p>
+         </div>
+   </footer>
+   </div>
+   </div>
+   <script defer src="https://netanel-m.github.io/assets/js/scripts.min.js?v=27706a8fe221267c1834098c796f44c1"></script>
+       <script>        
+           var images = document.querySelectorAll('img[loading]');
+   
+           for (var i = 0; i < images.length; i++) {
+               if (images[i].complete) {
+                   images[i].classList.add('is-loaded');
+               } else {
+                   images[i].addEventListener('load', function () {
+                       this.classList.add('is-loaded');
+                   }, false);
+               }
+           }
+       </script>
+   
+   
+   
+   </body>
+   </html>
